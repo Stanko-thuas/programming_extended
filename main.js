@@ -49,7 +49,7 @@ function paraFunction (){
 
     var metricsResult = metrics[Math.floor(Math.random()*metrics.length)];
     document.getElementById("mars").innerHTML = metricsResult 
-    //Gravity-Converter
+    //Mars-Distance
 
 
 };
