@@ -6,20 +6,56 @@
     box-sizing: border-box;
 }
 
+body { 
+    overflow: hidden;
+    background: url(/img/bg.jpg);
+    background-size: cover;
+    color: white;
+}
+
 .container  {
     height: 60vh;
     width: 100vw;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
     text-align: center;
     padding: 100px 0px;
+    margin-top: 320px;
     font-family: 'Abel', sans-serif;
+    background-color: rgba(000, 000, 000, 0.06);
+    font-size: 22px;
+
 }
 
 .ship-parameters {
-    height: 60vh;
+    display: inline-block;
     width: 100vw;
     display: flex;
     justify-content: space-evenly;
+    background-color: rgba(255, 255, 255, 0.1);
+
 }
+
+.ship-eviroment {
+    display: inline-block;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    
+
+
+}
+
+.ship-supplies {
+    display: inline-block;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+
+
+}
+
