@@ -1,6 +1,6 @@
 
 // Arrays with data, that will be used to displayed to the html
-var parametersPercentage = ["10%","30%", "50%", "65%", "70%", "80%", "98%"];
+var parametersPercentage = ["10%","30%", "50%", "41%", "19%",  "29%",  "65%", "70%", "80%", "98%"];
 var enviroment =["80%", "60%", "50%", "90%", "At full Capacity", "0%" ];
 var metrics = ["7247445", "42069","69420", "1000", "600.000.000", "142015" ];
 
@@ -27,8 +27,8 @@ function paraFunction (){
     //Acceleration
 
     var parametersResult = parametersPercentage[Math.floor(Math.random()*parametersPercentage.length)];
-    document.getElementById("fuel").innerHTML = parametersResult
-    //Fuel
+    document.getElementById("power").innerHTML = parametersResult
+    //power
 
     var enviromentResult = enviroment[Math.floor(Math.random()*enviroment.length)];
     //Making another variable for the next array
@@ -54,6 +54,8 @@ function paraFunction (){
 
 };
 paraFunction();
+
+
 
 
 
