@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
 
 * {
     margin: 0;
@@ -20,7 +21,7 @@ body {
     flex-direction: column;
     text-align: center;
     padding: 100px 0px;
-    margin-top: 320px;
+    margin-top: 180px;
     font-family: 'Abel', sans-serif;
     background-color: rgba(000, 000, 000, 0.06);
     font-size: 22px;
@@ -55,7 +56,18 @@ body {
     justify-content: space-evenly;
     margin-top: 50px;
     background-color: rgba(255, 255, 255, 0.1);
+    margin-left: 45px;
 
+
+}
+
+.headline   {
+
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 100px;
+    font-family: 'Cairo', sans-serif;
 
 }
 
